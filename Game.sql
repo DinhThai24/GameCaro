@@ -1,0 +1,18 @@
+Create database Game
+Go
+use Game
+drop database Game
+CREATE TABLE NGUOICHOI
+(
+	TENNGUOICHOI VARCHAR(20) PRIMARY KEY,
+	MATKHAU char(10),
+	SOTRANDACHOI INT,
+	SOTRANTHANG INT,
+	TILETHANG FLOAT
+)
+
+INSERT INTO NGUOICHOI
+VALUES ('Dinh', '123',10,5,0.5),
+('Vy', '123v',15,8,0.53),
+('Hoa', '12h',10,3,0.3),
+('Hoang', 'hoang1',5,2,0.4)
